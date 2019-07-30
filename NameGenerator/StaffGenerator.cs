@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace NameGenerator
 {
-    public partial class Form1 : Form
+    public partial class StaffGenerator : Form
     {
-        public Form1()
+        public StaffGenerator()
         {
             InitializeComponent();
+        }
+
+        private void NameGenerator_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
